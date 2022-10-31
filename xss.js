@@ -1,1 +1,1 @@
-alert(`XSS in ${document.domain`})
+alert(`XSS in ${document.domain}`)
