@@ -3,3 +3,9 @@ info:
   description: "<math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src onerror=alert(document.domain)>"
   version: "1.0.0"
   title: "Minimal API"
+paths:
+  /greet:
+    get:
+      responses:
+        '200':
+          description: No response was specified
