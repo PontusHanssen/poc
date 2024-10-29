@@ -1,0 +1,25 @@
+swagger: "2.0"
+info:
+  description: |
+            <img onerror=alert(document.domain) src=1><a href=JaVaScript:alert(1)>test</a>
+  version: "1.0.0"
+  title: "Minimal API"
+paths:
+  /greet:
+    get:
+      summary: "Greet the user"
+      parameters:
+        - name: "name"
+          in: "query"
+          required: true
+          type: "string"
+          description: "The name of the user to greet"
+      responses:
+        200:
+          description: |
+            <img onerror=alert(document.domain) src=1><a href=JaVaScript:alert(1)>test</a>
+          schema:
+            type: "object"
+            properties:
+              message:
+                type: "string"
