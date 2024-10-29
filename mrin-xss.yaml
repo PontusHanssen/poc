@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   description: |
-            <img onerror=alert(document.domain) src=1><a href=JaVaScript:alert(1)>test</a>
+            <img onerror=alert(document.domain) src>
   version: "1.0.0"
   title: "Minimal API"
 paths:
@@ -16,8 +16,7 @@ paths:
           description: "The name of the user to greet"
       responses:
         200:
-          description: |
-            <img onerror=alert(document.domain) src=1><a href=JaVaScript:alert(1)>test</a>
+          description: test
           schema:
             type: "object"
             properties:
